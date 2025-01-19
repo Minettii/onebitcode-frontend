@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #1c1a1d;
+	color: #fff;
+	margin: 2rem;
+}
+
+.galery {
+	margin-top: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.2rem;
+}
+
+.galery > img {
+	width: 200px;
+	height: 200px;
+	flex: 1 0 200px;
+	object-fit: cover;
+}
