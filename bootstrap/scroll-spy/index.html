@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Scroll Spy com Bootstrap</title>
+		<!-- CSS Bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body class="p-5">
+		<div class="row">
+			<div class="col-3">
+				<nav
+					id="navbar-example3"
+					class="navbar navbar-light bg-light flex-column align-items-stretch p-3"
+				>
+					<a class="navbar-brand" href="#">Navbar</a>
+					<nav class="nav nav-pills flex-column">
+						<a class="nav-link" href="#item-1">Item 1</a>
+						<nav class="nav nav-pills flex-column">
+							<a class="nav-link ms-3 my-1" href="#item-1-1"
+								>Item 1-1</a
+							>
+							<a class="nav-link ms-3 my-1" href="#item-1-2"
+								>Item 1-2</a
+							>
+						</nav>
+						<a class="nav-link" href="#item-2">Item 2</a>
+						<a class="nav-link" href="#item-3">Item 3</a>
+						<nav class="nav nav-pills flex-column">
+							<a class="nav-link ms-3 my-1" href="#item-3-1"
+								>Item 3-1</a
+							>
+							<a class="nav-link ms-3 my-1" href="#item-3-2"
+								>Item 3-2</a
+							>
+						</nav>
+					</nav>
+				</nav>
+			</div>
+			<div
+				data-bs-spy="scroll"
+				data-bs-target="#navbar-example3"
+				data-bs-offset="0"
+				tabindex="0"
+				class="col"
+				style="
+					height: 385px;
+					overflow: auto;
+					position: relative;
+					font-size: 25px;
+					line-height: 1.5rem;
+				"
+			>
+				<h4 id="item-1">Item 1</h4>
+				<p>
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+					Nisi omnis atque velit aut magni. Temporibus, hic! Quaerat
+					eum voluptas eligendi ab veniam voluptatem voluptate?
+					Possimus blanditiis doloremque, numquam qui quasi veniam
+					beatae officiis culpa aliquid tempore distinctio. Neque
+					expedita hic voluptates adipisci sunt, quasi repudiandae
+					esse assumenda unde ipsam commodi minus ratione,
+					perspiciatis earum optio eligendi laboriosam culpa inventore
+					id, maxime sint ea. Ullam, sit saepe inventore sequi
+					voluptatem numquam praesentium? Saepe, blanditiis qui
+					cupiditate perspiciatis id dolorem vel ad fugit enim
+					obcaecati similique libero commodi sapiente, placeat
+					voluptatem sequi! Laborum adipisci inventore quo repellendus
+					rerum iusto sequi repellat repudiandae reiciendis. Sunt,
+					eius tempore? Aliquam dolor maiores consectetur quod at
+					accusantium, laudantium possimus in nisi nobis dolore eius
+					asperiores repudiandae, dignissimos non et aut voluptas
+					accusamus id iste incidunt consequatur unde? Incidunt illo
+					at, harum distinctio aperiam enim rerum quas veritatis ea,
+					consequatur ab expedita, perspiciatis voluptas nihil?
+					Expedita quam cupiditate praesentium deserunt possimus
+					incidunt aliquam, earum sunt voluptate esse optio ipsa
+					eligendi eaque similique quasi vero unde a, adipisci ea
+					minima quae, voluptates quos eveniet. Excepturi iste quia,
+					tenetur itaque quo aut accusamus voluptate velit nihil
+					temporibus non provident! Amet doloremque tempore animi
+					laboriosam rerum omnis blanditiis accusantium placeat!
+				</p>
+				<h5 id="item-1-1">Item 1-1.</h5>
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+					Illo ducimus quia illum veritatis sunt deleniti eaque atque
+					quaerat non sed voluptates nam explicabo optio a
+					consequuntur, praesentium porro saepe suscipit temporibus
+					esse tempora consectetur libero possimus! Ad eaque mollitia,
+					consequuntur ipsam harum tempore rem consectetur deleniti
+					vel dolor blanditiis exercitationem quos, suscipit
+					aspernatur ut cupiditate assumenda molestias, hic sit fugit
+					minima! Sint provident esse ad sapiente placeat maiores
+					culpa repellat inventore excepturi nesciunt exercitationem
+					unde incidunt facilis ut ipsam cumque quidem est, assumenda,
+					consequuntur quo. Delectus, a placeat deleniti sapiente
+					iusto quis ipsam, eos quos repellendus minus voluptatem iste
+					quae accusamus non commodi minima sint laboriosam odio.
+					Quasi voluptate beatae reprehenderit consectetur magnam
+					excepturi facilis provident assumenda deserunt neque, nam
+					autem, a optio hic perferendis nemo velit natus accusantium,
+					voluptates fugit eligendi atque eum saepe? Doloribus
+					corrupti aspernatur repellat ex. Mollitia vitae quibusdam
+					excepturi ut sint, quaerat, deleniti accusantium eius
+					dolores, veniam harum nemo autem facilis perferendis! Magni
+					atque beatae laboriosam repellat, sed dolores ducimus a
+					accusamus temporibus quasi rerum aliquid, earum veniam illum
+					facere officiis quod magnam ab, deleniti tenetur fuga
+					tempora? Dolore veritatis dicta magni iusto quibusdam odit
+					quis illum enim perferendis id eligendi, laborum iste omnis
+					eius.
+				</p>
+				<h5 id="item-1-2">Item 1-2</h5>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Placeat id adipisci perspiciatis accusamus, distinctio
+					aliquam ut eius ipsa maiores culpa commodi, sint facere qui
+					voluptatibus magnam iste impedit veniam! Mollitia quis autem
+					reprehenderit aspernatur inventore nihil fuga minus,
+					cupiditate quibusdam? Architecto illum hic qui repudiandae
+					eos fuga ipsum facere veritatis reprehenderit soluta unde,
+					animi officiis. Culpa quasi illo corporis, sed vitae est,
+					enim ducimus, provident consequuntur illum architecto quia
+					dolor? Dolorem molestias, quas a optio aspernatur quidem
+					minus recusandae magnam tenetur id! Possimus modi illum id
+					quo distinctio, minima excepturi quaerat iste labore magnam
+					consequatur molestiae? Necessitatibus, repellat quos? Facere
+					quis aliquam consequatur dolorum sed? Omnis ipsa rem maiores
+					laborum nisi ipsum sed, asperiores porro itaque consequatur
+					dolor, harum mollitia natus sapiente vero quisquam facilis
+					numquam ab dolore perferendis veniam. Dolores id quasi, ut
+					hic saepe blanditiis cumque tempore inventore delectus
+					suscipit tempora voluptate aperiam repellendus magni dolorem
+					aliquid dolore harum! Beatae saepe totam, quidem corrupti
+					quaerat mollitia neque quibusdam laborum voluptatibus
+					similique suscipit dicta fugit, adipisci libero! Fugit
+					aliquid quae minus quas, accusantium pariatur minima sed
+					sapiente est necessitatibus? Reprehenderit doloremque quidem
+					dignissimos suscipit itaque alias eius id vel consequatur,
+					sit at autem ipsum! Aspernatur voluptatibus quidem ratione
+					alias!
+				</p>
+				<h4 id="item-2">Item 2</h4>
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+					Harum voluptatum reiciendis quia nostrum eaque? Earum saepe
+					fugit quasi. Laboriosam reiciendis sed molestias illum
+					ipsum. Eius doloribus quaerat optio corrupti dolorum impedit
+					exercitationem, provident nulla molestiae omnis consequatur
+					quas delectus commodi debitis voluptatem blanditiis
+					voluptatibus, reprehenderit quod! In amet minima, odit non,
+					quasi perferendis dicta adipisci dolores minus autem unde
+					quaerat repellendus cum placeat magnam hic iste sequi
+					expedita temporibus corrupti eos nihil sapiente beatae
+					obcaecati. Ducimus maxime numquam itaque. Molestiae nulla
+					architecto minima culpa velit, sit perspiciatis itaque
+					temporibus officia. Ipsam, inventore consequatur omnis
+					deleniti voluptatum perspiciatis repudiandae quaerat
+					praesentium, eum maiores facere accusantium, quas fugit.
+					Cupiditate corporis natus nulla quasi quos alias saepe
+					possimus voluptatum, ipsa quae molestias? Voluptatem quasi
+					distinctio fugit aut temporibus unde beatae! Fugiat
+					pariatur, voluptatem fuga vitae nam atque enim similique
+					veritatis neque animi natus ducimus debitis nihil fugit amet
+					nemo laboriosam quam esse voluptatum eos iure veniam autem.
+					Nostrum excepturi a aperiam fugiat fugit iste autem quasi
+					consectetur dolorem necessitatibus architecto, officia
+					reprehenderit. Eum vero quidem consequatur quia placeat.
+					Debitis repudiandae numquam rem modi unde odit maxime veniam
+					accusantium. Dignissimos, commodi quas cum corrupti est
+					possimus asperiores vel voluptates ipsam distinctio at
+					nesciunt deleniti.
+				</p>
+				<h4 id="item-3">Item 3</h4>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Odio perferendis exercitationem quia, dolorem, tenetur
+					officiis ipsum, placeat corporis reprehenderit eaque fugit
+					praesentium esse nisi temporibus sed nesciunt obcaecati
+					distinctio earum laborum! Odit eum, est quibusdam voluptatem
+					iste sed sit ullam aperiam reprehenderit, sapiente hic
+					suscipit eveniet distinctio, sequi ratione quis eos
+					consequuntur perferendis esse quas vitae reiciendis iure.
+					Totam possimus iste voluptates placeat, nostrum harum
+					mollitia excepturi obcaecati voluptate! Quidem unde
+					repudiandae incidunt magnam neque eum, aperiam ullam
+					corrupti eligendi tempora nihil mollitia ipsum nostrum illum
+					quaerat ipsa nulla ducimus? Id optio aut asperiores sit
+					perspiciatis inventore beatae aliquid eligendi eius hic
+					esse, recusandae numquam est sapiente dolorum neque velit
+					nobis minima natus ipsum ut nam similique quos! Expedita
+					accusamus doloremque alias et obcaecati aperiam optio
+					recusandae laboriosam reprehenderit dicta consequuntur sit
+					nesciunt laudantium odit modi quod ex dignissimos animi,
+					inventore incidunt, nihil odio impedit voluptate corrupti?
+					Sed, exercitationem neque delectus aspernatur inventore,
+					consectetur excepturi odio iusto repudiandae nam, laborum
+					labore voluptatibus possimus eum autem laboriosam placeat?
+					Dolorum obcaecati corporis quo iste cumque alias debitis
+					nesciunt cum minima accusantium dolores laudantium harum non
+					laborum, possimus quaerat vero illo amet eum, eos aliquid
+					sapiente. Velit aliquid reiciendis dolore praesentium vitae
+					minima!
+				</p>
+				<h5 id="item-3-1">Item 3-1</h5>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Cumque nam quos consectetur itaque placeat modi quidem
+					deserunt in, hic dolore dolores optio repellat explicabo
+					laudantium. Ipsam cum ex ratione sapiente, magnam
+					consequatur omnis delectus, quasi vitae dignissimos optio
+					quod officiis labore enim laudantium voluptates illum ad
+					dicta explicabo! Aperiam consequatur recusandae cupiditate
+					magnam commodi reiciendis, earum facilis provident non
+					itaque veritatis reprehenderit tempora a nulla suscipit
+					dolores autem officiis aliquam repellendus? Sed, eius
+					delectus enim excepturi perspiciatis ad accusamus dolor.
+					Delectus aliquam perspiciatis sequi, commodi maiores numquam
+					eligendi porro, facere quisquam, quaerat iusto sed modi?
+					Obcaecati minus hic assumenda! Facilis doloribus dolore
+					excepturi tempora vel nostrum dolorem ea doloremque magnam
+					nesciunt aspernatur porro nam, suscipit earum similique
+					molestiae voluptatum, cupiditate enim laborum nemo voluptate
+					quos eius. Cupiditate molestiae officiis tempora. Ducimus,
+					pariatur tempora. Minus tenetur eveniet quisquam? Architecto
+					iure a assumenda molestias consequuntur omnis quas suscipit
+					reprehenderit corporis debitis, quidem, id ipsam in fugit
+					incidunt aspernatur eligendi, iste inventore dolorem aliquam
+					nulla? Tempora enim quae, officia cupiditate sunt eveniet,
+					alias quidem iure ducimus hic nihil! Sapiente deserunt
+					accusamus, enim laborum repellendus qui nobis eum hic sequi
+					excepturi quidem. Necessitatibus repudiandae deleniti ipsum
+					eveniet debitis quod veritatis quisquam odit illum incidunt!
+				</p>
+				<h5 id="item-3-2">Item 3-2</h5>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Praesentium, modi quam deserunt rerum est quia doloremque
+					enim asperiores itaque adipisci tenetur perspiciatis illo
+					earum autem, laboriosam maxime aperiam nostrum fugit
+					architecto delectus reprehenderit. Tenetur repellendus,
+					rerum officia blanditiis unde eveniet labore. Reiciendis
+					dolores laborum amet itaque animi numquam libero beatae
+					doloremque perspiciatis saepe architecto, vero inventore
+					repudiandae vitae magnam exercitationem sed excepturi
+					aliquam pariatur voluptates assumenda ducimus iusto quasi?
+					Aliquid deserunt eligendi veniam pariatur, odio nesciunt
+					aliquam tempore non consequatur reprehenderit. Recusandae
+					doloribus consectetur possimus accusantium beatae ab
+					incidunt molestiae tenetur, quidem aspernatur alias animi
+					excepturi! Ullam beatae nostrum, illum non amet, ipsum eum
+					provident necessitatibus debitis culpa odit accusantium
+					praesentium, deleniti voluptate! Eos voluptate nulla
+					eligendi voluptatibus amet aspernatur quibusdam quam a
+					maiores modi facilis atque dicta nostrum dignissimos
+					voluptas explicabo in optio quo, nihil enim ut porro
+					dolorum! Velit, porro! Nihil odio minima quisquam eligendi
+					quidem necessitatibus ullam, et accusantium reiciendis!
+					Quidem, dolor deserunt ipsa sequi veritatis similique
+					quaerat earum itaque sed quo totam cumque odio. Quia placeat
+					laboriosam asperiores blanditiis eius, reiciendis nemo
+					excepturi dolor quidem commodi ipsum, provident maiores, id
+					sint qui rerum distinctio corporis consequuntur officia
+					officiis quam delectus quaerat velit. Obcaecati illum sed
+					natus.
+				</p>
+			</div>
+		</div>
+		<script>
+			var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+				target: "#navbar-example",
+			});
+		</script>
+		<!-- Script Bootstrap -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
