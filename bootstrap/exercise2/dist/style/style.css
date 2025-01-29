@@ -178,4 +178,124 @@ footer {
   margin-right: 0.5rem;
 }
 
+#falcon {
+  background-image: url(../../dist/assets/falcon9/01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#falcon-hero {
+  padding-top: 30vh;
+  text-align: center;
+}
+#falcon-hero h1 {
+  font-family: rubik, sans-serif;
+  font-weight: 514;
+  font-size: 90px;
+  line-height: 108px;
+}
+
+#stats {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+#stats h1 {
+  font-size: 90px;
+  line-height: 108px;
+}
+#stats p {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+#stats-details {
+  background-image: url(../../dist/assets/falcon9/02.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 22vh;
+}
+#stats-details p {
+  display: block;
+  font-size: 22px;
+  line-height: 50px;
+  text-transform: none;
+  max-width: 640px;
+}
+
+.cr-img {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 55% 50%;
+}
+
+.cr-content {
+  max-width: 500px;
+  padding-top: 15vh;
+  text-transform: none;
+}
+
+#attention {
+  font-size: 18px;
+}
+
+#cr-img-01 {
+  background-image: url(../../dist/assets/falcon9/03.jpg);
+  background-size: cover;
+}
+
+#cr-img-02 {
+  background-image: url(../../dist/assets/falcon9/04.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#cr-img-03 {
+  background-image: url(../../dist/assets/falcon9/05.jpg);
+}
+
+#cr-img-04 {
+  background-image: url(../../dist/assets/falcon9/06.jpg);
+}
+
+#cr-img-05 {
+  background-image: url(../../dist/assets/falcon9/07.jpg);
+}
+
+#merlin {
+  background-image: url(../../dist/assets/falcon9/08.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.cr-txt {
+  background-color: #000;
+  text-transform: none;
+  text-align: center;
+}
+
+#cr-img-06 {
+  background-image: url(../../dist/assets/falcon9/09.jpg);
+}
+
+#cr-img-07 {
+  background-image: url(../../dist/assets/falcon9/10.jpg);
+}
+
+#cr-img-08 {
+  background-image: url(../../dist/assets/falcon9/11.jpg);
+}
+
+#cr-img-09 {
+  background-image: url(../../dist/assets/falcon9/12.jpg);
+}
+
+#cr-img-10 {
+  background-image: url(../../dist/assets/falcon9/13.jpg);
+}
+
+#cr-img-11 {
+  background-image: url(../../dist/assets/falcon9/14.jpg);
+}
+
 /*# sourceMappingURL=style.css.map */
