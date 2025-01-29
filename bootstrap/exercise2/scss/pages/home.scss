@@ -1,0 +1,35 @@
+#home-equipe3 {
+	background-image: url(../../dist/assets/home/01.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#home-equipe2 {
+	background-image: url(../../dist/assets/home/03.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#home-dragon {
+	background-image: url(../../dist/assets/home/02.gif);
+	background-size: cover;
+	background-position: center;
+}
+
+#home-starship {
+	background-image: url(../../dist/assets/home/04.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+@media screen and (min-width: 751px) {
+	.content {
+		padding-top: 22vh;
+	}
+}
+
+@media screen and (min-width: 598px) {
+	.content {
+		max-width: 500px;
+	}
+}

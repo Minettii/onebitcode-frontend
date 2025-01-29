@@ -1,0 +1,54 @@
+#human {
+	background-image: url(../../dist/assets/humanFlight/01.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#human-hero {
+	padding-top: 24vh;
+	text-align: center;
+	h1 {
+		font-size: 90px;
+	}
+	h5 {
+		font-weight: 300;
+		font-size: 30px;
+		line-height: 45px;
+	}
+}
+
+#orbit {
+	background-image: url(../../dist/assets/humanFlight/02.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#station {
+	background-image: url(../../dist/assets/humanFlight/03.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#moon {
+	background-image: url(../../dist/assets/humanFlight/04.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#mars {
+	background-image: url(../../dist/assets/humanFlight/05.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#info {
+	padding-top: 25vh;
+	height: 85vh;
+	text-transform: none;
+	font-weight: 400;
+
+	button {
+		padding: 1rem 1.25rem;
+		margin-right: 0.5rem;
+	}
+}
