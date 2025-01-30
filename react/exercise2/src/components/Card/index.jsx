@@ -1,13 +1,13 @@
-import cardStyle from "./Card.module.scss";
-import posterImg from "/sw.jpg";
+import styles from "./styles.module.scss";
+import Button from "../Button";
 
-export default function Card() {
+export default function Card({ title, posterImg }) {
 	return (
-		<div id={cardStyle.wrapper}>
-			<div id={cardStyle.flexbox}>
-				<img src={posterImg} />
+		<div id={styles.wrapper}>
+			<div id={styles.flexbox}>
+				<img src={posterImg} alt={title} />
 				<div>
-					<h1>Pôster: Star Wars (1977)</h1>
+					<h1>{title}</h1>
 					<p>
 						Um pôster decorativo épico do filme Star Wars, com
 						moldura de MDF e tamanho A3. Lorem ipsum dolor sit amet
@@ -18,7 +18,7 @@ export default function Card() {
 						fuga excepturi quisquam omnis, minus velit iusto ipsa
 						nihil et quos ex quasi, asperiores tempore aut!
 					</p>
-					<button>Comprar agora</button>
+					<Button text="Comprar agora" />
 				</div>
 			</div>
 		</div>
