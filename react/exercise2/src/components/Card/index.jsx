@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import styles from "./styles.module.scss";
 import Button from "../Button";
 
