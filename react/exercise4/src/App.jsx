@@ -1,12 +1,15 @@
 import { useState } from "react";
 import styles from "./App.module.scss";
 import Button from "./components/Button";
+import NumInput from "./components/NumInput";
 
-function generatePassword(length = 12) {
+function generatePassword(pswdLength) {
+	console.log(pswdLength);
+	console.log(typeof pswdLength);
 	const chars =
 		"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+[]{}|;:,.<>?";
 	let password = "";
-	for (let i = 0; i < length; i++) {
+	for (let i = 0; i < pswdLength; i++) {
 		const randomIndex = Math.floor(Math.random() * chars.length);
 		password += chars[randomIndex];
 	}
@@ -20,15 +23,24 @@ function copyPassword(password) {
 export default function App() {
 	const [copyButtonText, setCopyButtonText] = useState("Copiar");
 	const [password, setPassword] = useState("");
+	const [pswdLength, setPswdLength] = useState(12);
 
 	return (
 		<>
-			<div className={styles.wrapper}>
+			<div className={styles.app}>
 				<h1 className={styles.mainTitle}>Gerador de senhas</h1>
-				<div className={styles.buttonsContainer}>
+				<div className={styles.wrapper}>
+					<label htmlFor="pswdSize">Tamanho:</label>
+					<NumInput
+						id="pswdSize"
+						pswdLength={pswdLength}
+						setPswdLength={setPswdLength}
+					></NumInput>
+				</div>
+				<div className={styles.wrapper}>
 					<Button
 						onClick={() => {
-							setPassword(generatePassword(12));
+							setPassword(generatePassword(pswdLength));
 							setCopyButtonText("Copiar");
 						}}
 					>
@@ -43,7 +55,7 @@ export default function App() {
 						{copyButtonText}
 					</Button>
 				</div>
-				<p>{password}</p>
+				<p className={styles.result}>{password}</p>
 			</div>
 		</>
 	);
