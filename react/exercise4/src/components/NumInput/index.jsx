@@ -1,5 +1,11 @@
-/* eslint-disable react/prop-types */
 import "./styles.module.scss";
+import PropTypes from "prop-types";
+
+Input.propTypes = {
+	id: PropTypes.string,
+	pswdLength: PropTypes.number.isRequired,
+	setPswdLength: PropTypes.func,
+};
 
 export default function Input(props) {
 	return (
